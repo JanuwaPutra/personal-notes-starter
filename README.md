@@ -61,7 +61,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 3. install npm 
    ```sh
-   npm i
+   npm install
    ```
 4. run project
    ```sh
