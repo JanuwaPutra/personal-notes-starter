@@ -29,7 +29,6 @@
 ![My-Personal-Notes](https://github.com/JanuwaPutra/personal-notes-starter/blob/main/screenshoot/Screenshot%202024-09-24%20222214.png)
 This Project is a final submission to basic react course at dicoding. In this project you can use CRUD operation to create notes, search notes, archive notes, and more validation.
 
-### Live Demo : https://personal-notes-thoriqas.vercel.app/
 
 
 ### Built With
