@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Notes App
 
-![My-Personal-Notes](https://user-images.githubusercontent.com/72277295/218277164-516b80dc-6d31-471b-b04e-ac9f1893a5d2.png)
+![My-Personal-Notes](https://github.com/JanuwaPutra/personal-notes-starter/blob/main/screenshoot/Screenshot%202024-09-24%20222214.png)
 This Project is a final submission to basic react course at dicoding. In this project you can use CRUD operation to create notes, search notes, archive notes, and more validation.
 
 ### Live Demo : https://personal-notes-thoriqas.vercel.app/
