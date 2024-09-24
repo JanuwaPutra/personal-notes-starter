@@ -18,8 +18,12 @@ class NotesApp extends React.Component {
   }
   
   onDeleteHandler(id) {
-    const notes = this.state.notes.filter(notes => notes.id !== id);
-    this.setState({ notes });
+    const confirmed = window.confirm("Apakah Anda yakin ingin menghapus catatan ini?");
+    if (confirmed) {
+      const notes = this.state.notes.filter(note => note.id !== id);
+      this.setState({ notes, notification: "Catatan telah dihapus." });
+      setTimeout(() => this.setState({ notification: '' }), 4000); // Clear notification after 4 seconds
+    }
   }
 
   onAddNotesHandler({ title, body }) {
@@ -88,7 +92,7 @@ class NotesApp extends React.Component {
   </div>
   <footer className="note-app__footer">
           <p>© 2024 personal-notes-starter | By Januwa Putra Wiastopo</p>
-        </footer>
+   </footer>
 </div>
     );
   }
