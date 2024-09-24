@@ -171,6 +171,16 @@ input::placeholder, textarea::placeholder {
   }
 }
 
+.note-app__footer {
+  text-align: center;
+  padding: 16px 0;
+  background-color: #202124;
+  color: white;
+  border-top: 1px solid #aaa; /* Optional: Add a top border */
+  margin-top: 16px; /* Space above the footer */
+}
+
+
 @media only screen and (min-width: 800px) {
   .notes-list {
     grid-template-columns: repeat(3, 1fr);
