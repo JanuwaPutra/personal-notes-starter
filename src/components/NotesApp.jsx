@@ -86,6 +86,9 @@ class NotesApp extends React.Component {
     <h2>Catatan Arsip</h2>
     <NotesList notes={archivedNotes} onDelete={this.onDeleteHandler} onArchive={this.onArchiveHandler} />
   </div>
+  <footer className="note-app__footer">
+          <p>© 2024 personal-notes-starter | By Januwa Putra Wiastopo</p>
+        </footer>
 </div>
     );
   }
